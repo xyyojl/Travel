@@ -88,6 +88,7 @@ export default {
         // height: 50.6%
         // height: 0
         // padding-bottom: 50.6%
+        margin-top: .1rem
         .icon
             float: left
             position: relative
