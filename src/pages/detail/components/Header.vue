@@ -49,6 +49,9 @@ export default {
   },
   activated () {
     window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated () { // 页面即将被隐藏或者切换到别的页面
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
