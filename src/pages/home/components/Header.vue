@@ -16,10 +16,12 @@
 </template>
 
 <script>
+// 重点 还有上面 this.city
 import {mapState} from 'vuex'
 export default {
   name: 'HomeHeader',
   computed: {
+    // 重点
     ...mapState(['city'])
   }
 }
